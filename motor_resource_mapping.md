@@ -15,7 +15,7 @@
 
 Type 'resource' to view current resource mapping.
 
-Resource mapping commands:
+## Resource mapping commands:
 ```
 resource MOTOR 1 B01
 resource MOTOR 2 B08
