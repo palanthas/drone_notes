@@ -1,0 +1,36 @@
+# diff
+
+# version
+# Betaflight / CLRACINGF4 (CLR4) 4.1.1 Nov 15 2019 / 12:13:19 (1e5e3d369) MSP API: 1.42
+
+# start the command batch
+batch start
+
+board_name CLRACINGF4
+
+# resources
+resource MOTOR 1 B01
+resource MOTOR 2 B08
+resource MOTOR 3 A02
+resource MOTOR 4 A03
+resource MOTOR 5 NONE
+resource LED_STRIP 1 B01
+
+# serial
+serial 0 64 115200 57600 0 115200
+
+# aux
+aux 0 0 2 1700 2100 0 0
+aux 1 1 0 1700 2100 0 0
+
+# master
+set serialrx_provider = SBUS
+
+profile 0
+
+rateprofile 0
+
+# end the command batch
+batch end
+
+# 
